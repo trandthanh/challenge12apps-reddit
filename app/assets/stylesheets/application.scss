@@ -27,14 +27,37 @@ h1 {
 
 // Bit of styling
 
+header {
+  padding: 50px;
+}
+
+nav {
+  padding: 30px;
+  font-family: Alegreya;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+
+  padding-right: 50px;
+
+  a {
+    color: black;
+  }
+}
+
 #logo {
+  font-family: Alegreya;
   font-size: 26px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -1px;
+  font-weight: 400;
   padding: 15px 0;
   a {
-    color: #2F363E;
+    color: #8F91A2;
   }
 }
 
