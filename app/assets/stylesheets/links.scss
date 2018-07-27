@@ -3,3 +3,65 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+.link-index {
+  margin-top: 60px;
+
+  h1 {
+    font-size: 60px;
+
+    padding-bottom: 30px;
+
+    small {
+      font-size: 30%;
+    }
+  }
+
+  a {
+    color: black;
+    &:hover {
+      color: #75ACFF;
+    }
+  }
+}
+
+.show-header {
+
+  padding-bottom: 100px;
+  border-bottom: 1px solid #E9E9E9;
+
+  h1 {
+    font-size: 60px;
+
+    padding-bottom: 30px;
+
+    small {
+      font-size: 30%;
+    }
+  }
+
+  a {
+    color: black;
+    &:hover {
+      color: #75ACFF;
+    }
+  }
+}
+
+.show-content {
+  padding-top: 70px;
+
+  h1 {
+    font-size: 60px;
+    padding-bottom: 30px;
+  }
+}
+
+.comments-form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+label {
+  font-family: Alegreya;
+}
+

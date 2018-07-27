@@ -36,7 +36,22 @@ nav {
   font-family: Alegreya;
   font-weight: 500;
   font-size: 20px;
+
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+  ul {
+    border-right: 3px solid #e9e9e9;
+  }
+
 }
+
+.navbar-nav > li > a:hover {
+  background-color: white;
+  color: black;
+}
+
 
 .nav {
   display: flex;
@@ -47,7 +62,7 @@ nav {
   padding-right: 50px;
 
   a {
-    color: black;
+    color: #8F91A2;
   }
 }
 
@@ -55,20 +70,30 @@ nav {
   font-family: Alegreya;
   font-size: 26px;
   font-weight: 400;
+  font-style: italic;
   padding: 15px 0;
   a {
     color: #8F91A2;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
 #main_content {
+
+  padding-bottom: 50px;
+
+
   #content {
     float: none;
   }
-  padding-bottom: 100px;
+
   .link {
     padding: 2em 1em;
-    border-bottom: 1px solid #e9e9e9;
+    // border-bottom: 1px solid #e9e9e9;
+
     .title {
 
       a {
@@ -77,15 +102,51 @@ nav {
     }
   }
   .comments_title {
-    margin-top: 2em;
+    margin-top: 130px;
+    margin-bottom: 30px;
   }
   #comments {
     .comment {
       padding: 1em 0;
-      border-top: 1px solid #E9E9E9;
+      // border-top: 1px solid #E9E9E9;
+
       .lead {
         margin-bottom: 0;
       }
     }
+  }
+
+  .comments_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.btn {
+  font-family: Alegreya;
+  font-size: 15px;
+}
+
+.btn-violet {
+  background-color: #75ACFF;
+  &:hover {
+    background-color: #8F91A2;
+  }
+}
+
+.glyphicon {
+  font-size: 10px;
+}
+
+// Links
+
+a {
+  font-family: Alegreya;
+  color: #8F91A2;
+
+  &:hover {
+    text-decoration: none;
   }
 }
